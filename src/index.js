@@ -34,35 +34,6 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-// if ( getOrgId() === null ) {
-//   ReactDOM.render(
-//     <Auth0Provider
-//       domain={config.domain}
-//       clientId={config.clientId}
-//       audience={config.audience}
-//       redirectUri={window.location.origin}
-//       onRedirectCallback={onRedirectCallback}
-//     >
-//       <App />
-//     </Auth0Provider>,
-//     document.getElementById("root")
-//   );
-// } else {
-//   ReactDOM.render(
-//     <Auth0Provider
-//       domain={config.domain}
-//       clientId={config.clientId}
-//       audience={config.audience}
-//       redirectUri={window.location.origin}
-//       onRedirectCallback={onRedirectCallback}
-//       organization={getOrgId()}
-//     >
-//       <App />
-//     </Auth0Provider>,
-//     document.getElementById("root")
-//   );
-// }
-
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
